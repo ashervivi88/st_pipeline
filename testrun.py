@@ -39,6 +39,7 @@ class TestPipeline(unittest.TestCase):
         # Create genome index dirs.
         self.genomedir = os.path.join(self.tmpdir, 'config/genomes/mouse_grcm38')
         os.makedirs(self.genomedir)
+        print(self.genomedir)
 
         # STAR contaminant dir
         self.contamdir = os.path.join(self.tmpdir, 'config/contaminant_genomes/R45S5_R5S1')

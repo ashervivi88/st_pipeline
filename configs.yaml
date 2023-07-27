@@ -1,0 +1,17 @@
+necessary:
+  exp-name: test
+  ids: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+  log-file: log_file.txt
+  output-folder: /Users/akim/Desktop/
+  ref-annotation: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+  ref-map: /Users/akim/Desktop/ref_map
+  R1: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq/
+  R2: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+
+optional:
+  - an item
+  - another item
+  - 1.25
+  - a_key: a_value
+
+

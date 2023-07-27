@@ -1,15 +1,20 @@
 invoke
 argparse
 cython>=0.19
-numpy
-pandas
-scipy
-scikit-learn
+numpy==1.16.0
+pandas==1.1.5
+scipy==1.4
+# scikit-learn==0.24
+scikit-learn==0.24
 sqlitedict
 regex
 taggd>=0.3.6
-HTSeq>=0.7.1
+HTSeq==0.13.5
 pysam>=0.7.4
 setuptools
 pympler
-seaborn
+seaborn==0.9.0
+matplotlib==3.3
+joblib==0.11
+threadpoolctl==2.0.0
+typing-extensions==4.1.1
