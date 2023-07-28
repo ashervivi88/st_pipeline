@@ -24,6 +24,7 @@ import tempfile
 import subprocess
 import pysam
 import inspect
+import yaml
 
 FILENAMES = {"mapped": "mapped.bam",
              "annotated": "annotated.bam",
@@ -299,7 +300,8 @@ class Pipeline():
                 else:
                     raise argparse.ArgumentTypeError("{0} is not a readable dir".format(prospective_dir))
 
-        parser.add_argument('fastq_files', nargs=2)
+        #parser.add_argument('fastq_files', nargs=2)
+        parser.add_argument('yaml_infile', nargs=1)
         parser.add_argument('--ids',
                             metavar="[FILE]",
                             required=False,
@@ -318,7 +320,7 @@ class Pipeline():
         parser.add_argument('--expName',
                             type=str,
                             metavar="[STRING]",
-                            required=True,
+                            #required=True,
                             help="Name of the dataset (The output files will prepend this name)")
         parser.add_argument('--contaminant-index',
                             metavar="[FOLDER]",
@@ -671,6 +673,35 @@ class Pipeline():
         Load the input parameters from the argparse object given as parameter
         :param options: a Argparse object
         """
+        self.yaml_infile = options.yaml_infile
+        a_yaml_file = open(options.yaml_infile[0])
+        parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
+        self.required = parsed_yaml_file["necessary"]
+        
+        self.fastq_fw = os.path.abspath(self.required["R1"])
+        self.fastq_rv = os.path.abspath(self.required["R2"])
+        self.expName = self.required["exp-name"]
+        self.ids = os.path.abspath( self.required["ids"])
+        if self.required["log-file"] is not None:
+            self.logfile = os.path.abspath(self.required["log-file"])
+        if self.required["ref-annotation"] is not None:
+            self.ref_annotation = os.path.abspath(self.required["ref-annotation"])
+        if self.required["ref-map"] is not None:
+            self.ref_map = os.path.abspath(self.required["ref-map"])  
+        if self.required["output-folder"] is not None and os.path.isdir(self.required["output-folder"]):
+            self.output_folder = os.path.abspath(self.required["output-folder"])
+        else:
+            self.output_folder = os.path.abspath(os.getcwd())
+    
+        # self.output_folder = self.required["output-folder"]
+        # self.ref_annotation = self.required["ref-annotation"]
+        # self.ref_map = self.required["ref-map"]
+        # self.R1 = self.required["R1"]
+        # self.R2 = self.required["R2"]
+        
+        self.R1 = self.required["R1"]
+        self.R2 = self.required["R2"]
+        
         self.allowed_missed = options.demultiplexing_mismatches
         self.allowed_kmer = options.demultiplexing_kmer
         self.overhang = options.demultiplexing_overhang
@@ -681,12 +712,12 @@ class Pipeline():
         self.barcode_start = options.demultiplexing_start
         self.threads = options.threads
         self.verbose = options.verbose
-        self.ids = os.path.abspath(options.ids)
-        if options.ref_map is not None:
-            self.ref_map = os.path.abspath(options.ref_map)
-        if options.ref_annotation is not None:
-            self.ref_annotation = os.path.abspath(options.ref_annotation)
-        self.expName = options.expName
+        #self.ids = os.path.abspath(options.ids)
+        # if options.ref_map is not None:
+        #     self.ref_map = os.path.abspath(options.ref_map)
+        # if options.ref_annotation is not None:
+        #     self.ref_annotation = os.path.abspath(options.ref_annotation)
+        #self.expName = options.expName
         self.htseq_mode = options.htseq_mode
         self.htseq_no_ambiguous = options.htseq_no_ambiguous
         self.htseq_features = options.htseq_features
@@ -696,14 +727,14 @@ class Pipeline():
         # Load the given path into the system PATH
         if options.bin_path is not None and os.path.isdir(options.bin_path):
             os.environ["PATH"] += os.pathsep + options.bin_path
-        if options.log_file is not None:
-            self.logfile = os.path.abspath(options.log_file)
-        self.fastq_fw = os.path.abspath(options.fastq_files[0])
-        self.fastq_rv = os.path.abspath(options.fastq_files[1])
-        if options.output_folder is not None and os.path.isdir(options.output_folder):
-            self.output_folder = os.path.abspath(options.output_folder)
-        else:
-            self.output_folder = os.path.abspath(os.getcwd())
+        # if options.log_file is not None:
+        #     self.logfile = os.path.abspath(options.log_file)
+        # self.fastq_fw = os.path.abspath(options.fastq_files[0])
+        # self.fastq_rv = os.path.abspath(options.fastq_files[1])
+        # if options.output_folder is not None and os.path.isdir(options.output_folder):
+        #     self.output_folder = os.path.abspath(options.output_folder)
+        # else:
+        #     self.output_folder = os.path.abspath(os.getcwd())
         if options.temp_folder is not None and os.path.isdir(options.temp_folder):
             self.temp_folder = os.path.abspath(options.temp_folder)
         else:
@@ -757,6 +788,7 @@ class Pipeline():
         qa_stats.demultiplex_tool = "Taggd {}".format(getTaggdCountVersion())
         qa_stats.pipeline_version = version_number
         qa_stats.mapper_tool = getSTARVersion()
+        print(self)
 
     def createLogger(self):
         """

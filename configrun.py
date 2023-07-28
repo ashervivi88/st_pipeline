@@ -14,17 +14,23 @@ import yaml
 from stpipeline.core.pipeline import Pipeline
 import os
 from shutil import copyfile
+import argparse
 
 
 class ConfigPipeline(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
-        a_yaml_file = open("/Users/akim/st_pipeline/configs.yaml")
+            # Create a parser
+        parser = argparse.ArgumentParser()
+        parser.add_argument('yaml_infile')
+        options = parser.parse_args()
+        
+        #"/Users/akim/st_pipeline/configs.yaml"
+        a_yaml_file = open(options.yaml_infile[0])
         parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
         
         self.required = parsed_yaml_file["necessary"]
-        print(self.required)
         self.exp_name = self.required["exp-name"]
         self.ids = self.required["ids"]
         self.log_file = self.required["log-file"]
