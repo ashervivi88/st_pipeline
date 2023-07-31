@@ -25,6 +25,8 @@ import subprocess
 import pysam
 import inspect
 import yaml
+import shutil
+
 
 FILENAMES = {"mapped": "mapped.bam",
              "annotated": "annotated.bam",
@@ -277,8 +279,9 @@ class Pipeline():
             if which_program(script) is None:
                 unavailable_scripts.add(script)
         if len(unavailable_scripts) != 0:
-            error = "Error starting the pipeline.\n" \
-                    "Required software not found:\t".join(unavailable_scripts)
+            print(unavailable_scripts)
+            error = "Error starting the pipeline. Required software not found: ".join(unavailable_scripts)
+            print(error)
             self.logger.error(error)
             raise RuntimeError(error)
 
@@ -1087,6 +1090,33 @@ class Pipeline():
                     os.rename(temp_name, FILENAMES["mapped"])
             except Exception:
                 raise
+            shutil.copy2(FILENAMES["mapped"], '/Users/akim/Desktop')
+
+        # # =================================================================
+        # # STEP: DEMULTIPLEX READS Map against the barcodes
+        # # =================================================================
+        # if not self.disable_barcode:
+        #     self.logger.info("Starting barcode demultiplexing {}".format(globaltime.getTimestamp()))
+        #     try:
+        #         barcodeDemultiplexing(FILENAMES["mapped"],
+        #                               self.ids,
+        #                               self.allowed_missed,
+        #                               self.allowed_kmer,
+        #                               self.overhang,
+        #                               self.taggd_metric,
+        #                               self.taggd_multiple_hits_keep_one,
+        #                               self.taggd_trim_sequences,
+        #                               self.threads,
+        #                               FILENAMES["demultiplexed_prefix"],  # Prefix for output files
+        #                               self.keep_discarded_files)
+        #         # TaggD does not output the BAM file sorted
+        #         command = "samtools sort -T {}/sort_bam -@ {} -o {} {}".format(self.temp_folder,
+        #                                                                        self.threads,
+        #                                                                        FILENAMES["demultiplexed_matched"],
+        #                                                                        FILENAMES["demultiplexed_matched"])
+        #         subprocess.check_call(command, shell=True)
+        #     except Exception:
+        #         raise
 
         # =================================================================
         # STEP: DEMULTIPLEX READS Map against the barcodes
@@ -1113,8 +1143,8 @@ class Pipeline():
                 subprocess.check_call(command, shell=True)
             except Exception:
                 raise
-
-                # =================================================================
+    
+        # =================================================================
         # STEP: annotate using htseq-count or the transcriptome
         # =================================================================
         if not self.disable_annotation:
