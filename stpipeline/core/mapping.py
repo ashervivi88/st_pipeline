@@ -240,6 +240,7 @@ def barcodeDemultiplexing(reads,
     :type keep_discarded_files: bool
     :raises: RuntimeError,ValueError,OSError,CalledProcessError
     """
+
     logger = logging.getLogger("STPipeline")
 
     if not os.path.isfile(reads):
@@ -261,10 +262,10 @@ def barcodeDemultiplexing(reads,
     if taggd_metric == "Hamming": over_hang = 0
     args = ['taggd_demultiplex.py']
 
-    if taggd_trim_sequences is not None:
-        args.append("--trim-sequences")
-        for pos in taggd_trim_sequences:
-            args.append(pos)
+    # if taggd_trim_sequences is not None:
+    #     args.append("--trim-sequences")
+    #     for pos in taggd_trim_sequences:
+    #         args.append(pos)
 
     args += ["--max-edit-distance", mismatches,
              "--k", kmer,
@@ -301,7 +302,10 @@ def barcodeDemultiplexing(reads,
         raise e
 
     # We know the output file from the prefix and suffix
+    # outputFile = "{}_matched{}".format(outputFilePrefix, os.path.splitext(reads)[1].lower())
+    
     outputFile = "{}_matched{}".format(outputFilePrefix, os.path.splitext(reads)[1].lower())
+
     if not fileOk(outputFile):
         error = "Error demultiplexing with TAGGD.\n" \
                 "Output file is not present {}\n{}\n".format(outputFile, errmsg)

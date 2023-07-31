@@ -1,0 +1,430 @@
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 14:15:50.279941
+INFO:STPipeline:Start filtering raw reads 2023-07-28 14:15:50.286410
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 14:15:54.394155
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 14:16:11.365784
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6cyswzbv/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_344d516d-e653-4056-9d28-14849a85411f.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_344d516d-e653-4056-9d28-14849a85411f.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_c975a691-93b5-4850-83bc-70d153c3d0e3.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_c07ca62e-47a5-4e62-bed7-2aa053a9cfac.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_41cb4755-ed6f-4430-a39a-f3175a70f38a.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 14:16:14.467427
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 14:16:31.661240
+INFO:STPipeline:Number of reads present: 5933
+INFO:STPipeline:Number of unique events (gene-spot) present: 5762
+INFO:STPipeline:Number of unique genes present: 1636
+INFO:STPipeline:Max number of genes over all spots: 124
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 159.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 6.496054114994363
+INFO:STPipeline:Average number reads per spot: 6.688838782412627
+INFO:STPipeline:Std. number genes per spot: 8.890270335579629
+INFO:STPipeline:Std. number reads per spot: 9.92815905236456
+INFO:STPipeline:Number of discarded reads (possible duplicates): 21
+INFO:STPipeline:Total Execution Time: 0:00:59.616137
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 14:19:28.739546
+INFO:STPipeline:Start filtering raw reads 2023-07-28 14:19:28.746958
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 14:19:32.017171
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 14:19:50.565685
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp11g22m3l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_867458e3-4dca-4a24-9e44-c8db841d6f9f.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_867458e3-4dca-4a24-9e44-c8db841d6f9f.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_48932e24-868d-484a-b836-ad3ee53a41c4.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_ad404f7b-e720-48ae-91fe-3817be58cc66.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_51561db2-4398-4457-8915-94f9c641d126.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 14:19:52.795001
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 14:20:06.988179
+INFO:STPipeline:Number of reads present: 5933
+INFO:STPipeline:Number of unique events (gene-spot) present: 5764
+INFO:STPipeline:Number of unique genes present: 1634
+INFO:STPipeline:Max number of genes over all spots: 127
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 160.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 6.498308906426155
+INFO:STPipeline:Average number reads per spot: 6.688838782412627
+INFO:STPipeline:Std. number genes per spot: 8.951815613448543
+INFO:STPipeline:Std. number reads per spot: 9.948238047638165
+INFO:STPipeline:Number of discarded reads (possible duplicates): 21
+INFO:STPipeline:Total Execution Time: 0:00:54.591526
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 14:25:01.529545
+INFO:STPipeline:Start filtering raw reads 2023-07-28 14:25:01.536110
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 14:25:05.032459
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 14:25:20.701481
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1ltx05b2/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_94df4cef-a2c4-48ed-bb51-aeba68102cc2.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_94df4cef-a2c4-48ed-bb51-aeba68102cc2.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_9b043b95-780d-4932-a94d-10cda443bf4d.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_e6fbbcfc-ee0b-4f39-bbcc-48b07127838f.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_155c1700-ff1c-41c8-8a2e-9cb05cb524cf.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 14:25:23.127715
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 14:25:37.904557
+INFO:STPipeline:Number of reads present: 5933
+INFO:STPipeline:Number of unique events (gene-spot) present: 5764
+INFO:STPipeline:Number of unique genes present: 1634
+INFO:STPipeline:Max number of genes over all spots: 127
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 160.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 6.498308906426155
+INFO:STPipeline:Average number reads per spot: 6.688838782412627
+INFO:STPipeline:Std. number genes per spot: 8.951815613448543
+INFO:STPipeline:Std. number reads per spot: 9.948238047638165
+INFO:STPipeline:Number of discarded reads (possible duplicates): 21
+INFO:STPipeline:Total Execution Time: 0:01:06.205317
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 14:30:32.402254
+INFO:STPipeline:Start filtering raw reads 2023-07-28 14:30:32.408254
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 14:30:35.540719
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 14:30:53.077985
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjvlxm1bp/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_5ebb17fd-1149-4d78-b0e5-57bf67c72bc1.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_5ebb17fd-1149-4d78-b0e5-57bf67c72bc1.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_ff85ff93-2beb-4e50-abcd-a7b7d0a5b0b8.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_959f1781-c13f-48ee-a5b2-baeb34e0309d.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_57296eb7-3f78-478f-9b05-549b7896d490.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 14:30:56.141537
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 14:31:12.896925
+INFO:STPipeline:Number of reads present: 5699
+INFO:STPipeline:Number of unique events (gene-spot) present: 5153
+INFO:STPipeline:Number of unique genes present: 654
+INFO:STPipeline:Max number of genes over all spots: 73
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 151.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 5.8094701240135285
+INFO:STPipeline:Average number reads per spot: 6.425028184892898
+INFO:STPipeline:Std. number genes per spot: 7.036448868874283
+INFO:STPipeline:Std. number reads per spot: 9.51950258133527
+INFO:STPipeline:Number of discarded reads (possible duplicates): 255
+INFO:STPipeline:Total Execution Time: 0:01:00.053553
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 15:46:44.673660
+INFO:STPipeline:Start filtering raw reads 2023-07-28 15:46:44.681230
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 15:46:48.299766
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 15:47:09.566843
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\nCould not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempm8d7w4mg/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_7821a07b-2c4a-4b86-b5f5-079dc6a037f1.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_7821a07b-2c4a-4b86-b5f5-079dc6a037f1.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_16c13367-b855-4d71-ae60-80df0462cf8d.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_aed15b8c-7d6c-44f8-8b7a-b870e24fe0c6.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_8beb3c27-7225-4983-ad4a-f595df9b9e8e.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 15:47:12.832151
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 15:47:27.527918
+INFO:STPipeline:Number of reads present: 5699
+INFO:STPipeline:Number of unique events (gene-spot) present: 5153
+INFO:STPipeline:Number of unique genes present: 654
+INFO:STPipeline:Max number of genes over all spots: 73
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 151.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 5.8094701240135285
+INFO:STPipeline:Average number reads per spot: 6.425028184892898
+INFO:STPipeline:Std. number genes per spot: 7.036448868874283
+INFO:STPipeline:Std. number reads per spot: 9.51950258133527
+INFO:STPipeline:Number of discarded reads (possible duplicates): 255
+INFO:STPipeline:Total Execution Time: 0:00:58.562155

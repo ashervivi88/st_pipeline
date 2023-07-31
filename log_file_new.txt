@@ -1,0 +1,1390 @@
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temprja927o6
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempg3xn3800
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp6c29ucjr
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqgl3lc2b
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temphtp_72hv
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempwbi3trp4
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempicjp2scm
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-28 16:50:19.484492
+INFO:STPipeline:Start filtering raw reads 2023-07-28 16:50:19.490814
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-28 16:50:22.817324
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-28 16:50:40.889775
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'[E::idx_find_and_load] \nCould not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\nCould not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempjasy0d0x/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_fe1ffe0a-5e93-41bf-9581-1982ad96cce2.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_fe1ffe0a-5e93-41bf-9581-1982ad96cce2.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_f3094d3b-3769-45c6-b25e-131011854c71.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_bd189745-62c2-4114-b758-2137316ab77d.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_4573bd5f-434b-43ec-90f5-7c14a9fd9161.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-28 16:50:44.246743
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-28 16:51:08.614245
+INFO:STPipeline:Number of reads present: 5699
+INFO:STPipeline:Number of unique events (gene-spot) present: 5153
+INFO:STPipeline:Number of unique genes present: 654
+INFO:STPipeline:Max number of genes over all spots: 73
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 151.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 5.8094701240135285
+INFO:STPipeline:Average number reads per spot: 6.425028184892898
+INFO:STPipeline:Std. number genes per spot: 7.036448868874283
+INFO:STPipeline:Std. number reads per spot: 9.51950258133527
+INFO:STPipeline:Number of discarded reads (possible duplicates): 255
+INFO:STPipeline:Total Execution Time: 0:01:06.647551
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp_srtvozr
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+ERROR:STPipeline:STAR
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp3zizulzb
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:19:42.011893
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:19:42.106136
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempgxgypduw
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:25:36.624550
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:25:36.636082
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:36:23.808238
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:36:23.818756
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:36:26.898864
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[52118]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such fidyld[52119]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\nle), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/_STARtmp//readsCommand_read1: line 3: 52118 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:36:29.957739
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempt5g9jaev/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_6d2d788a-d241-47ce-b129-8bf565299085.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_6d2d788a-d241-47ce-b129-8bf565299085.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_0e627ddc-edda-4717-9d6e-68ae29a9a45f.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_bb5e9d84-6fdb-422f-94d6-5561509525bd.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_0dedf7db-746b-4811-bf6d-48589608708a.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:39:08.424070
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:39:08.432911
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:39:11.282209
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[53182]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[53184]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/_STARtmp//readsCommand_read1: line 3: 53182 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:39:14.573171
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] [E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'[E::idx_find_and_load] \nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempphp1bomh/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_6ae615cc-8733-411b-8b93-2eaebfebaf4b.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_6ae615cc-8733-411b-8b93-2eaebfebaf4b.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_06a23fdb-6a82-4a2b-9192-92675d87be2a.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_3e32888b-bce4-4739-8fa3-7b7901c118d9.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_fdd39279-7011-4040-919f-4babc3a0f3cb.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:40:12.768219
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:40:12.777311
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:40:15.810400
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[53267]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[53269]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/_STARtmp//readsCommand_read1: line 3: 53267 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:40:18.058436
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempc5xh7o_g/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_938fb682-8e7d-42fb-9688-cf2245e35eeb.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_938fb682-8e7d-42fb-9688-cf2245e35eeb.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_d2df07c1-f635-4674-a62f-18cc76d44c05.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_a4b7b852-4c80-462e-baa7-11980ed0152b.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_56330bbf-ac38-4983-a130-c42661837acf.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:41:46.465102
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:41:46.468960
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:41:49.656831
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[53395]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[53397]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/_STARtmp//readsCommand_read1: line 3: 53395 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:41:51.607379
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'[E::idx_find_and_load] \nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temp1xypq2d4/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_9d007259-0fce-48f6-8480-342d40dda103.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_9d007259-0fce-48f6-8480-342d40dda103.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_224518d1-4aa2-495a-8b07-b44ca9a25d1f.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_33da157e-b74f-4368-adab-c30d8f1a6903.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_46b6531e-a9fc-45af-aa41-09f1daeb10ce.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:44:08.915581
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:44:08.933943
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:44:12.209884
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[53664]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[53662]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/_STARtmp//readsCommand_read1: line 3: 53662 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:44:15.808727
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] \nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempd_2xrakz/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_f88a7ad3-e573-406c-b2e2-025652aa72e8.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_f88a7ad3-e573-406c-b2e2-025652aa72e8.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_5f132824-359c-4b7d-b10d-eafb90f9ceb5.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_377004a0-20d8-4987-a848-728ebd2a4179.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_c2baf17f-3836-4cff-ab97-cb35a6c64351.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templp72tz4c
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:46:04.855959
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:46:04.863328
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:46:08.642659
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[53855]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[53857]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templp72tz4c/_STARtmp//readsCommand_read1: line 3: 53855 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templp72tz4c/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:46:14.241575
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'Traceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temps06wj1ik
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:48:43.174538
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:48:43.185307
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:48:46.518486
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[54112]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[54114]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temps06wj1ik/_STARtmp//readsCommand_read1: line 3: 54112 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_temps06wj1ik/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:48:48.771197
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'Traceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempewjgfup8
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:50:01.704425
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:50:01.708296
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:50:05.146369
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[54242]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[54244]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempewjgfup8/_STARtmp//readsCommand_read1: line 3: 54242 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempewjgfup8/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:50:07.295600
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'Traceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 11:55:45.810315
+INFO:STPipeline:Start filtering raw reads 2023-07-31 11:55:45.818470
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 11:55:48.701588
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'dyld[54576]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\ndyld[54578]: Library not loaded: \'@rpath/libcrypto.1.0.0.dylib\'\n  Referenced from: \'/Users/akim/anaconda3/envs/ultra-copy/bin/samtools\'\n  Reason: tried: \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/Users/akim/anaconda3/envs/ultra-copy/bin/../lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/local/lib/libcrypto.1.0.0.dylib\' (no such file), \'/usr/lib/libcrypto.1.0.0.dylib\' (no such file)\n/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/_STARtmp//readsCommand_read1: line 3: 54576 Abort trap: 6           samtools view -h "/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/R2_quality_trimmed.bam"\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 11:55:51.889939
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] [E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_templqljozfc/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_1688196a-026e-41e1-988c-48a87bb51da1.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_1688196a-026e-41e1-988c-48a87bb51da1.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_7ca44f4f-0889-4989-b99b-69ae7633012e.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_2aa62cb8-14ec-4ee5-bb40-1be429572031.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_2ac1806d-e6bd-4d94-8098-e913d4885d44.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 12:41:32.143518
+INFO:STPipeline:Start filtering raw reads 2023-07-31 12:41:32.153818
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 12:41:35.101180
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/_STARtmp//readsCommand_read1: line 3: samtools: command not found\nsh: samtools: command not found\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 12:41:37.180802
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] \nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempkqphut31/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_9ba65f0a-4814-48eb-ada6-b1526ac35154.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_9ba65f0a-4814-48eb-ada6-b1526ac35154.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_473a81f4-b04d-4f2d-bb43-21e64432ed95.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_f6e109c3-195c-4cdb-be34-711e1a513a46.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_b366ff62-e80c-4af3-b6fc-8a298aa3baaf.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 12:43:12.477291
+INFO:STPipeline:Start filtering raw reads 2023-07-31 12:43:12.492431
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 12:43:15.535420
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/_STARtmp//readsCommand_read1: line 3: samtools: command not found\nsh: samtools: command not found\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 12:43:18.015740
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempqz3ochpt/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_095fa64e-d1fd-4124-96d5-6d146c2c55c5.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_095fa64e-d1fd-4124-96d5-6d146c2c55c5.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_76a85be0-692e-42b2-852a-210fb12d3621.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_8fd26d3a-3e7a-4af8-94fd-53c0dd32441c.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_646ffeae-d08d-440b-b023-a87ecdccc4fa.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 12:46:07.611425
+INFO:STPipeline:Start filtering raw reads 2023-07-31 12:46:07.618583
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 12:46:10.727434
+WARNING:STPipeline:STAR has generated error messages during mapping.
+b'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/_STARtmp//readsCommand_read1: line 3: samtools: command not found\nsh: samtools: command not found\n'
+
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	0
+INFO:STPipeline:                        Uniquely mapped reads % |	0.00%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	0
+INFO:STPipeline:             % of reads mapped to multiple loci |	0.00%
+INFO:STPipeline:                 % of reads unmapped: too short |	0.00%
+INFO:STPipeline:Total mapped reads: 0
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 12:46:14.872308
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b'[E::idx_find_and_load] [E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\nCould not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempnyoxt8h0/mapped.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_a6eb9616-da67-47fb-88e3-11c87f624f43.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_a6eb9616-da67-47fb-88e3-11c87f624f43.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_b11ffaac-8752-46f1-b49f-e9bffaab821a.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_02017055-e0d6-4834-bc7b-901892193ffe.bam\'\n[E::idx_find_and_load] Could not retrieve index file for \'/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_f3211654-50df-4885-8da2-6abe48564cf1.bam\'\nTraceback (most recent call last):\n  File "/Users/akim/anaconda3/envs/ultra-copy/bin/taggd_demultiplex.py", line 4, in <module>\n    __import__(\'pkg_resources\').run_script(\'taggd==0.3.6\', \'taggd_demultiplex.py\')\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 651, in run_script\n    self.require(requires)[0].run_script(script_name, ns)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1448, in run_script\n    exec(code, namespace, namespace)\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/EGG-INFO/scripts/taggd_demultiplex.py", line 15, in <module>\n    deplex.main()\n  File "/Users/akim/anaconda3/envs/ultra-copy/lib/python3.6/site-packages/taggd-0.3.6-py3.6-macosx-10.9-x86_64.egg/taggd/core/demultiplex.py", line 269, in main\n    print(str(stats))\n  File "taggd/core/statistics.pyx", line 34, in taggd.core.statistics.Statistics.__str__\nZeroDivisionError: float division by zero\n'
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:ST Pipeline 1.8.2
+INFO:STPipeline:Output directory: /Users/akim/Desktop
+INFO:STPipeline:Temporary directory: /var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l
+INFO:STPipeline:Dataset name: test
+INFO:STPipeline:Forward(R1) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq
+INFO:STPipeline:Reverse(R2) input file: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
+INFO:STPipeline:Reference mapping STAR index folder: /Users/akim/Desktop/ref_map
+INFO:STPipeline:Reference annotation file: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
+INFO:STPipeline:CPU Nodes: 4
+INFO:STPipeline:Ids(barcodes) file: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
+INFO:STPipeline:TaggD allowed mismatches: 2
+INFO:STPipeline:TaggD kmer size: 6
+INFO:STPipeline:TaggD overhang: 0
+INFO:STPipeline:TaggD metric: Subglobal
+INFO:STPipeline:Mapping reverse trimming: 0
+INFO:STPipeline:Mapping inverse reverse trimming: 0
+INFO:STPipeline:Mapping tool: STAR
+INFO:STPipeline:Mapping minimum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:Mapping maximum intron size allowed (splice alignments) with STAR: 1
+INFO:STPipeline:STAR genome loading strategy NoSharedMemory
+INFO:STPipeline:Annotation tool: HTSeq
+INFO:STPipeline:Annotation mode: intersection-nonempty
+INFO:STPipeline:Annotation strandness yes
+INFO:STPipeline:Annotation feature types exon
+INFO:STPipeline:UMIs start position: 18
+INFO:STPipeline:UMIs end position: 27
+INFO:STPipeline:UMIs allowed mismatches: 1
+INFO:STPipeline:UMIs clustering algorithm: AdjacentBi
+INFO:STPipeline:Allowing an offset of 250 when clustering UMIs by strand-start in a gene-spot
+INFO:STPipeline:Allowing 6 low quality bases in an UMI
+INFO:STPipeline:Discarding reads that after trimming are shorter than 20
+INFO:STPipeline:Removing polyA sequences of a length of at least: 10
+INFO:STPipeline:Removing polyT sequences of a length of at least: 10
+INFO:STPipeline:Removing polyG sequences of a length of at least: 10
+INFO:STPipeline:Removing polyC sequences of a length of at least: 10
+INFO:STPipeline:Removing polyN sequences of a length of at least: 10
+INFO:STPipeline:Allowing 0 mismatches when removing homopolymers
+INFO:STPipeline:Remove reads whose AT content is 90%
+INFO:STPipeline:Remove reads whose GC content is 90%
+INFO:STPipeline:Starting the pipeline: 2023-07-31 12:48:12.100317
+INFO:STPipeline:Start filtering raw reads 2023-07-31 12:48:12.112336
+INFO:STPipeline:Trimming stats total reads (pair): 100000
+INFO:STPipeline:Trimming stats 21036 reads have been dropped!
+INFO:STPipeline:Trimming stats you just lost about 21.04% of your data
+INFO:STPipeline:Trimming stats reads remaining: 78964
+INFO:STPipeline:Trimming stats dropped pairs due to incorrect UMI: 0
+INFO:STPipeline:Trimming stats dropped pairs due to low quality UMI: 508
+INFO:STPipeline:Trimming stats dropped pairs due to high AT content: 8946
+INFO:STPipeline:Trimming stats dropped pairs due to high GC content: 656
+INFO:STPipeline:Trimming stats dropped pairs due to presence of artifacts: 9695
+INFO:STPipeline:Trimming stats dropped pairs due to being too short: 1231
+INFO:STPipeline:Starting genome alignment 2023-07-31 12:48:16.356110
+INFO:STPipeline:Mapping stats: 
+INFO:STPipeline:Mapping stats are computed from all the pair reads present in the raw files
+INFO:STPipeline:                   Uniquely mapped reads number |	8657
+INFO:STPipeline:                        Uniquely mapped reads % |	10.96%
+INFO:STPipeline:        Number of reads mapped to multiple loci |	912
+INFO:STPipeline:             % of reads mapped to multiple loci |	1.15%
+INFO:STPipeline:                 % of reads unmapped: too short |	87.57%
+INFO:STPipeline:Total mapped reads: 9569
+INFO:STPipeline:Starting barcode demultiplexing 2023-07-31 12:48:40.410571
+WARNING:STPipeline:Taggd has generated error messages during demultiplexing.
+b"[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\nCould not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] [E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\nCould not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/st_pipeline_tempsgueas4l/mapped.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_040b9adc-db5c-4d79-a428-2009ff1ace05.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part0_040b9adc-db5c-4d79-a428-2009ff1ace05.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part1_40bcf688-f5ca-4484-9a7c-46accbabb711.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part2_8011436f-4198-43fa-b97e-c3f883e0f28a.bam'\n[E::idx_find_and_load] Could not retrieve index file for '/var/folders/sz/j95x23cs2vj4pp7pfdrnw8gc0000gq/T/demultiplexed_matched.bam_part3_3532b44e-bd24-4e8a-9bff-a89c1ebcbce2.bam'\n"
+
+INFO:STPipeline:Demultiplexing Mapping stats:
+INFO:STPipeline:# Total reads: 9569
+INFO:STPipeline:# Total reads written: 8537
+INFO:STPipeline:# Ambiguous matches: 0   [0.0%]
+INFO:STPipeline:#   - Non-unique ambiguous matches: 0
+INFO:STPipeline:# Unmatched: 247   [2.5812519594523984%]
+INFO:STPipeline:Starting annotation 2023-07-31 12:48:44.612194
+INFO:STPipeline:Annotated reads: 5954
+INFO:STPipeline:Starting creating dataset 2023-07-31 12:49:03.462617
+INFO:STPipeline:Number of reads present: 5699
+INFO:STPipeline:Number of unique events (gene-spot) present: 5153
+INFO:STPipeline:Number of unique genes present: 654
+INFO:STPipeline:Max number of genes over all spots: 73
+INFO:STPipeline:Min number of genes over all spots: 1
+INFO:STPipeline:Max number of reads over all spots: 151.0
+INFO:STPipeline:Min number of reads over all spots: 1.0
+INFO:STPipeline:Average number genes per spot: 5.8094701240135285
+INFO:STPipeline:Average number reads per spot: 6.425028184892898
+INFO:STPipeline:Std. number genes per spot: 7.036448868874283
+INFO:STPipeline:Std. number reads per spot: 9.51950258133527
+INFO:STPipeline:Number of discarded reads (possible duplicates): 255
+INFO:STPipeline:Total Execution Time: 0:01:08.581784
