@@ -126,6 +126,8 @@ def InputReadsFilter(fw,
     cdef bint discard_read
     
     # Create output file writers
+    print("did it update?")
+
     bam_file = pysam.AlignmentFile(out_rv, "wbu", header=bam_header)
     fw_file = safeOpenFile(fw, "rU")
     rv_file = safeOpenFile(rv, "rU")

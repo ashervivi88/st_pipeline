@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 from subprocess import check_call
 import yaml
-from stpipeline.core.pipeline import Pipeline
+from stpipeline.core.pipeline_copy import Pipeline
 import os
 from shutil import copyfile
 import argparse
@@ -56,8 +56,8 @@ class ConfigPipeline(unittest.TestCase):
     def test_run(self):
         # Run st_pipeline_run.py
         try:
-            print("Running st_pipeline_run.py")
-            check_call(["st_pipeline_run.py",
+            print("Running st_pipeline_run_copy.py")
+            check_call(["st_pipeline_run_copy.py",
                         "--expName", self.exp_name,
                         "--ids", self.ids,
                         "--log-file", self.log_file,
@@ -67,7 +67,7 @@ class ConfigPipeline(unittest.TestCase):
                         self.R1, self.R2])
         except Exception as e:
             print(str(e))
-            self.assertTrue(0, "Running st_pipeline_run.py failed \n")
+            self.assertTrue(0, "Running st_pipeline_run_copy.py failed \n")
 
         # # Verify existence of output files and temp files
         # self.assertNotEqual(os.listdir(self.outdir), [], "Output folder is not empty")

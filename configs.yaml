@@ -1,11 +1,13 @@
 necessary:
   exp-name: test
   ids: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
-  log-file: log_file_new.txt
-  output-folder: /Users/akim/Desktop/
+  log-file: log_file_ultra.txt
+  output-folder: /Users/akim/Desktop/Output
   ref-annotation: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
   ref-map: /Users/akim/Desktop/ref_map
-  R1: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq/
+  #R1: /Users/akim/ultraplex/ultraplex/pipeline_test.fastq
+  #R1: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq/
+  R1: /Users/akim/Desktop/pipeline_ready.fastq
   R2: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
 
 optional:
