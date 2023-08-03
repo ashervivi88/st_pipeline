@@ -21,6 +21,7 @@ class ConfigPipeline(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
+
             # Create a parser
         parser = argparse.ArgumentParser()
         parser.add_argument('yaml_infile')
@@ -40,6 +41,9 @@ class ConfigPipeline(unittest.TestCase):
         self.R1 = self.required["R1"]
         self.R2 = self.required["R2"]
         
+        self.optional = parsed_yaml_file["optional"]
+        self.contamdir = self.optional["contamdir"]
+
         
         # # Verify existence of input files
         # assert (os.path.exists(self.infile_fw))
@@ -58,12 +62,19 @@ class ConfigPipeline(unittest.TestCase):
         try:
             print("Running st_pipeline_run_copy.py")
             check_call(["st_pipeline_run_copy.py",
+                        "--verbose",
+                        "--no-clean-up",
+                        "--star-two-pass-mode",
+                        "--htseq-no-ambiguous",
+                        "--keep-discarded-files",
+                        "--threads", "4",
                         "--expName", self.exp_name,
                         "--ids", self.ids,
                         "--log-file", self.log_file,
                         "--output-folder", self.output_folder,
                         "--ref-annotation", self.ref_annotation,
                         "--ref-map", self.ref_map,
+                        "--contaminant-index", self.contamdir,
                         self.R1, self.R2])
         except Exception as e:
             print(str(e))

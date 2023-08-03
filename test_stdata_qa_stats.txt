@@ -1,0 +1,39 @@
+Number of spots: 924
+Number of reads present: 5956
+Number of unique genes present: 657
+Max number of genes over all spots: 61
+Min number of genes over all spots: 1
+Max number of reads over all spots: 75.0
+Min number of reads over all spots: 1.0
+Average number genes per spots: 6.075757575757576
+Average number reads per spot: 6.445887445887446
+Std number genes per spot: 5.767003559369857
+Std number reads per spot: 6.695470328045559
+Max number of reads over all spots/genes: 7.0
+Min number of reads over all spots/genes: 0.0
+Number of spots: 924
+Number of reads present: 5956
+Number of unique genes present: 657
+Max number of genes over all spots: 61
+Min number of genes over all spots: 1
+Max number of reads over all spots: 75.0
+Min number of reads over all spots: 1.0
+Average number genes per spots: 6.075757575757576
+Average number reads per spot: 6.445887445887446
+Std number genes per spot: 5.767003559369857
+Std number reads per spot: 6.695470328045559
+Max number of reads over all spots/genes: 7.0
+Min number of reads over all spots/genes: 0.0
+Number of spots: 928
+Number of reads present: 5947
+Number of unique genes present: 657
+Max number of genes over all spots: 67
+Min number of genes over all spots: 1
+Max number of reads over all spots: 78.0
+Min number of reads over all spots: 1.0
+Average number genes per spots: 6.038793103448276
+Average number reads per spot: 6.408405172413793
+Std number genes per spot: 5.913219724390253
+Std number reads per spot: 6.7747164369700785
+Max number of reads over all spots/genes: 4.0
+Min number of reads over all spots/genes: 0.0

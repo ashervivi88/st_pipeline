@@ -12,6 +12,7 @@ import numpy as np
 from subprocess import check_call
 from stpipeline.core.pipeline import Pipeline
 import os
+import shutil
 from shutil import copyfile
 
 
@@ -166,6 +167,11 @@ class TestPipeline(unittest.TestCase):
         self.assertTrue(os.path.getsize(readsfile) > 1024, "ST Data BED file is not empty")
         # self.assertTrue(os.path.exists(statsfile), "Stats JSON file exists")
 
+        datafile_out = "/Users/akim/Desktop/st_pipeline_tests/"+ self.expname + "_stdata.tsv"
+        readsfile_out = "/Users/akim/Desktop/st_pipeline_tests/"+ self.expname + "_reads.bed"
+        shutil.copy2(datafile, datafile_out)
+        shutil.copy2(readsfile, readsfile_out)
+        
         # Run st_qa.py
         try:
             print("Running st_qa.py")

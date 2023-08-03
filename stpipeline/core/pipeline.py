@@ -958,6 +958,9 @@ class Pipeline():
                 os.remove(temp_r1_fifo_name)
             if is_fifo(temp_r2_fifo_name):
                 os.remove(temp_r2_fifo_name)
+        
+        shutil.copy2(FILENAMES['quality_trimmed_R2'], '/Users/akim/Desktop/st_pipeline_tests/test1_quality_trimmed_R2.bam')
+
 
         # =================================================================
         # CONDITIONAL STEP: Filter out contaminated reads, e.g. typically bacterial rRNA
@@ -1055,6 +1058,8 @@ class Pipeline():
                     os.rename(temp_name, FILENAMES["mapped"])
             except Exception:
                 raise
+            shutil.copy2(FILENAMES['mapped'], '/Users/akim/Desktop/st_pipeline_tests/test2_mapped.bam')
+
 
         # =================================================================
         # STEP: DEMULTIPLEX READS Map against the barcodes
@@ -1082,10 +1087,10 @@ class Pipeline():
             except Exception:
                 raise
 
-            shutil.copy2(FILENAMES['demultiplexed_matched'], '/Users/akim/Desktop/demultiplexed_matched.bam')
+            shutil.copy2(FILENAMES['demultiplexed_matched'], '/Users/akim/Desktop/st_pipeline_tests/test3_demultiplexed_matched.bam')
 
 
-                # =================================================================
+        # =================================================================
         # STEP: annotate using htseq-count or the transcriptome
         # =================================================================
         if not self.disable_annotation:
@@ -1119,7 +1124,7 @@ class Pipeline():
                                   self.htseq_features)
                 except Exception:
                     raise
-                shutil.copy2(FILENAMES['annotated'], '/Users/akim/Desktop/annotated.bam')
+                shutil.copy2(FILENAMES['annotated'], '/Users/akim/Desktop/st_pipeline_tests/test4_annotated.bam')
         # =================================================================
         # STEP: compute saturation (Optional)
         # =================================================================

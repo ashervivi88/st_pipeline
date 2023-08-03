@@ -679,6 +679,7 @@ class Pipeline():
         self.yaml_infile = options.yaml_infile
         a_yaml_file = open(options.yaml_infile[0])
         parsed_yaml_file = yaml.load(a_yaml_file, Loader=yaml.FullLoader)
+        
         self.required = parsed_yaml_file["necessary"]
         
         self.fastq_fw = os.path.abspath(self.required["R1"])
@@ -705,16 +706,47 @@ class Pipeline():
         self.R1 = self.required["R1"]
         self.R2 = self.required["R2"]
         
+        
+        
+        self.optional = parsed_yaml_file["optional"]
+        # print("at verbose")
+        if self.optional["verbose"] is not None:
+            self.verbose = self.optional["verbose"]
+        else:
+            self.verbose = options.verbose
+        # print("at clean")
+        if self.optional["no-clean-up"] is not None:
+            self.clean = self.optional["no-clean-up"]
+        else:
+            self.clean = options.no_clean_up
+        # print("at two pass")
+        if self.optional["star-two-pass-mode"] is not None:
+            self.two_pass_mode = self.optional["star-two-pass-mode"]
+        else:
+            self.two_pass_mode = options.star_two_pass_mode
+
+        if self.optional["htseq-no-ambiguous"] is not None:
+            self.htseq_no_ambiguous = self.optional["htseq-no-ambiguous"]
+        else:
+            self.htseq_no_ambiguous = options.htseq_no_ambiguous
+                    
+        if self.optional["contamdir"] is not None:
+            self.contaminant_index = os.path.abspath(self.optional["contamdir"])
+        elif options.contaminant_index is not None:
+            self.contaminant_index = os.path.abspath(options.contaminant_index)
+        
+
+        
         self.allowed_missed = options.demultiplexing_mismatches
         self.allowed_kmer = options.demultiplexing_kmer
         self.overhang = options.demultiplexing_overhang
         self.min_length_trimming = options.min_length_qual_trimming
         self.trimming_rv = options.mapping_rv_trimming
         self.min_quality_trimming = options.min_quality_trimming
-        self.clean = options.no_clean_up
+        # self.clean = options.no_clean_up
         self.barcode_start = options.demultiplexing_start
         self.threads = options.threads
-        self.verbose = options.verbose
+        #self.verbose = options.verbose
         #self.ids = os.path.abspath(options.ids)
         # if options.ref_map is not None:
         #     self.ref_map = os.path.abspath(options.ref_map)
@@ -722,11 +754,11 @@ class Pipeline():
         #     self.ref_annotation = os.path.abspath(options.ref_annotation)
         #self.expName = options.expName
         self.htseq_mode = options.htseq_mode
-        self.htseq_no_ambiguous = options.htseq_no_ambiguous
+        # self.htseq_no_ambiguous = options.htseq_no_ambiguous
         self.htseq_features = options.htseq_features
         self.qual64 = options.qual_64
-        if options.contaminant_index is not None:
-            self.contaminant_index = os.path.abspath(options.contaminant_index)
+        # if options.contaminant_index is not None:
+        #     self.contaminant_index = os.path.abspath(options.contaminant_index)
         # Load the given path into the system PATH
         if options.bin_path is not None and os.path.isdir(options.bin_path):
             os.environ["PATH"] += os.pathsep + options.bin_path
@@ -763,7 +795,7 @@ class Pipeline():
         self.compute_saturation = options.compute_saturation
         self.include_non_annotated = options.include_non_annotated
         self.inverse_trimming_rv = options.inverse_mapping_rv_trimming
-        self.two_pass_mode = options.star_two_pass_mode
+        # self.two_pass_mode = options.star_two_pass_mode
         self.strandness = options.strandness
         self.umi_quality_bases = options.umi_quality_bases
         self.umi_counting_offset = options.umi_counting_offset
@@ -994,7 +1026,8 @@ class Pipeline():
             if is_fifo(temp_r2_fifo_name):
                 os.remove(temp_r2_fifo_name)
             print(FILENAMES)
-            shutil.copy2(FILENAMES['quality_trimmed_R2'], '/Users/akim/Desktop/filtered_R2.bam')
+        shutil.copy2(FILENAMES['quality_trimmed_R2'], '/Users/akim/Desktop/st_pipeline_ultra/1_quality_trimmed_R2.bam')
+
             #shutil.copy2(FILENAMES['demultiplexed_matched'], '/Users/akim/Desktop/')	
             #shutil.copy2(FILENAMES['demultiplexed_prefix'], '/Users/akim/Desktop/')
 
@@ -1094,7 +1127,8 @@ class Pipeline():
                     os.rename(temp_name, FILENAMES["mapped"])
             except Exception:
                 raise
-            shutil.copy2(FILENAMES["mapped"], '/Users/akim/Desktop/new2.bam')
+            shutil.copy2(FILENAMES['mapped'], '/Users/akim/Desktop/st_pipeline_ultra/2_mapped.bam')
+
 
         # # =================================================================
         # # STEP: DEMULTIPLEX READS Map against the barcodes
@@ -1138,7 +1172,8 @@ class Pipeline():
             except Exception:
                 raise
 
-            shutil.copy2(FILENAMES['mapped'], '/Users/akim/Desktop/demultiplexed_matched.bam')
+            shutil.copy2(FILENAMES['demultiplexed_matched'], '/Users/akim/Desktop/st_pipeline_ultra/3_demultiplexed_matched.bam')
+            shutil.copy2(FILENAMES['mapped'], '/Users/akim/Desktop/st_pipeline_ultra/3_mapped.bam')
     
         # =================================================================
         # STEP: annotate using htseq-count or the transcriptome
@@ -1174,7 +1209,7 @@ class Pipeline():
                                   self.htseq_features)
                 except Exception:
                     raise
-
+                shutil.copy2(FILENAMES['annotated'], '/Users/akim/Desktop/st_pipeline_ultra/4_annotated.bam')
         # =================================================================
         # STEP: compute saturation (Optional)
         # =================================================================

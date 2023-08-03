@@ -1,17 +1,30 @@
 necessary:
-  exp-name: test
+  exp-name: ultratest-bash
   ids: /Users/akim/st_pipeline/tests/config/idfiles/150204_arrayjet_1000L2_probes.txt
-  log-file: log_file_ultra.txt
-  output-folder: /Users/akim/Desktop/Output
+  log-file: log_file_ultra_bash.txt
+  output-folder: /Users/akim/Desktop/st_pipeline_ultra_bash
   ref-annotation: /Users/akim/st_pipeline/tests/config/annotations/Homo_sapiens.GRCh38.79_chr19.gtf
   ref-map: /Users/akim/Desktop/ref_map
   #R1: /Users/akim/ultraplex/ultraplex/pipeline_test.fastq
   #R1: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R1.fastq/
-  R1: /Users/akim/Desktop/pipeline_ready.fastq
+
+
+  #R1: /Users/akim/ultraplex/ultraplex/pipeline_test_2.fastq
+  R1: /Users/akim/ultraplex/ultraplex/pipeline_test_bash.fastq/
   R2: /Users/akim/st_pipeline/tests/input/arrayjet_1002/testdata_R2.fastq
 
 optional:
-  - an item
+  contamdir: /Users/akim/Desktop/contamdir
+  verbose: True
+  no-clean-up:
+  star-two-pass-mode: True
+  htseq-no-ambiguous: True
+  #keep-discarded-files: True
+  threads: 4
+  #temp-folder:
+
+
+other:
   - another item
   - 1.25
   - a_key: a_value

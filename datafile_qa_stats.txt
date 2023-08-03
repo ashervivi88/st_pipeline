@@ -1,0 +1,13 @@
+Number of spots: 885
+Number of reads present: 5581
+Number of unique genes present: 629
+Max number of genes over all spots: 72
+Min number of genes over all spots: 1
+Max number of reads over all spots: 150.0
+Min number of reads over all spots: 1.0
+Average number genes per spots: 5.690395480225988
+Average number reads per spot: 6.306214689265537
+Std number genes per spot: 6.848247609704353
+Std number reads per spot: 9.340998617008145
+Max number of reads over all spots/genes: 9.0
+Min number of reads over all spots/genes: 0.0
